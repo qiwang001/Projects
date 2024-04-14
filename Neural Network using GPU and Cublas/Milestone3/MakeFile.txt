@@ -1,0 +1,15 @@
+# Define the compiler and flags
+CC = gcc
+CFLAGS = --L/openblas/lib -I/openblas/include  -lopenblas -fopenmp
+
+
+CC=nvcc
+CFLAGS = -lcublas -Xcompiler -fopenmp -arch=sm_xx
+
+
+# Define all source files
+SRC_FILES = blas.c hand.c cublas.cu hand.cu
+
+
+ 
+

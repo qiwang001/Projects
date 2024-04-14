@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Administrator/Desktop/MPCS_Homeworks/HPC/Project3/Milestone2",
+      "program": "${fileDirname}/${fileBasenameNoExtension}"
+      //"program": "/Users/Administrator/Desktop/MPCS_Homeworks/HPC/Project3/Milestone2/build/Debug/outDebug"
+    }
+  ]
+}

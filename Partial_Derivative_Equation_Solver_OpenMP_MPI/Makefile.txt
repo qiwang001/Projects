@@ -1,0 +1,6 @@
+CC=mpicc
+CFLAGS = -n <nprocs> -fopenmp  <N> <ncores>
+
+Source = benchmark.c distribued2by2.c distribued2by1.c distribued4by4.c hybrid2by1.c hybrid2by2.c
+
+

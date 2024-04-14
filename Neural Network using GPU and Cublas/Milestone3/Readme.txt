@@ -1,0 +1,1 @@
+Four source files correspond to each version of the neural network, i.e hand-coded cpu version, cblas version , hand coded gpu version, and cublas version.
